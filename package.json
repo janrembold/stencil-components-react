@@ -1,5 +1,5 @@
 {
-  "name": "component-library-react",
+  "name": "stencil-components-react",
   "sideEffects": false,
   "version": "0.0.2",
   "private": true,

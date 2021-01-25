@@ -1,7 +1,7 @@
 {
   "name": "stencil-components-react",
   "sideEffects": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "private": true,
   "description": "React specific wrapper for component-library",
   "repository": {
@@ -35,10 +35,6 @@
   },
   "dependencies": {
     "stencil-components": "git+https://github.com/janrembold/stencil-components.git"
-  },
-  "peerDependencies": {
-    "react": ">17.0",
-    "react-dom": ">17.0"
   },
   "jest": {
     "preset": "ts-jest",

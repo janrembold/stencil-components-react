@@ -18,6 +18,7 @@ var __rest = (this && this.__rest) || function (s, e) {
         }
     return t;
 };
+import { jsx as _jsx } from "react/jsx-runtime";
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { attachProps } from './utils';
@@ -83,7 +84,7 @@ export const createOverlayComponent = (displayName, controller) => {
         }
     }
     return React.forwardRef((props, ref) => {
-        return React.createElement(Overlay, Object.assign({}, props, { forwardedRef: ref }));
+        return _jsx(Overlay, Object.assign({}, props, { forwardedRef: ref }), void 0);
     });
 };
 //# sourceMappingURL=createOverlayComponent.js.map

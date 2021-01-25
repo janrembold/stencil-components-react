@@ -1,3 +1,4 @@
+import { jsx as _jsx } from "react/jsx-runtime";
 import React from 'react';
 // The comma in the type is to trick typescript because it things a single generic in a tsx file is jsx
 export const mergeRefs = (...refs) => (value) => refs.forEach((ref) => {
@@ -11,7 +12,7 @@ export const mergeRefs = (...refs) => (value) => refs.forEach((ref) => {
 });
 export const createForwardRef = (ReactComponent, displayName) => {
     const forwardRef = (props, ref) => {
-        return React.createElement(ReactComponent, Object.assign({}, props, { forwardedRef: ref }));
+        return _jsx(ReactComponent, Object.assign({}, props, { forwardedRef: ref }), void 0);
     };
     forwardRef.displayName = displayName;
     return React.forwardRef(forwardRef);

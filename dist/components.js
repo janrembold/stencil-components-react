@@ -2,6 +2,8 @@
 /* tslint:disable */
 /* auto-generated react proxies */
 import { createReactComponent } from './react-component-lib';
-export const HmgContainer = /*@__PURE__*/ createReactComponent('hmg-container');
-export const MyComponent = /*@__PURE__*/ createReactComponent('my-component');
+export const DemoContainer = /*@__PURE__*/ createReactComponent('demo-container');
+export const DemoHeadline = /*@__PURE__*/ createReactComponent('demo-headline');
+export const DemoProps = /*@__PURE__*/ createReactComponent('demo-props');
+export const DemoState = /*@__PURE__*/ createReactComponent('demo-state');
 //# sourceMappingURL=components.js.map

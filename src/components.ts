@@ -7,5 +7,7 @@ import type { JSX } from 'stencil-components';
 
 
 
-export const HmgContainer = /*@__PURE__*/createReactComponent<JSX.HmgContainer, HTMLHmgContainerElement>('hmg-container');
-export const MyComponent = /*@__PURE__*/createReactComponent<JSX.MyComponent, HTMLMyComponentElement>('my-component');
+export const DemoContainer = /*@__PURE__*/createReactComponent<JSX.DemoContainer, HTMLDemoContainerElement>('demo-container');
+export const DemoHeadline = /*@__PURE__*/createReactComponent<JSX.DemoHeadline, HTMLDemoHeadlineElement>('demo-headline');
+export const DemoProps = /*@__PURE__*/createReactComponent<JSX.DemoProps, HTMLDemoPropsElement>('demo-props');
+export const DemoState = /*@__PURE__*/createReactComponent<JSX.DemoState, HTMLDemoStateElement>('demo-state');
